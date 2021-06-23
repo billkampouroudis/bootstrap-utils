@@ -1,0 +1,16 @@
+{
+  "name": "bootstrap-utils",
+  "version": "0.1.0",
+  "description": "",
+  "main": "main.scss",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/billkampouroudis/bootstrap-utils.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bill Kampouroudis",
+  "license": "MIT",
+  "dependencies": {}
+}

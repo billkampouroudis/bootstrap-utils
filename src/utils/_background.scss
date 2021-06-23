@@ -1,0 +1,14 @@
+// stylelint-disable declaration-no-important
+$theme-colors: ();
+
+@each $color, $value in $theme-colors {
+  @include bg-variant('.bg-#{$color}', $value, true);
+}
+
+.bg-white {
+  background-color: #fff !important;
+}
+
+.bg-transparent {
+  background-color: transparent !important;
+}
